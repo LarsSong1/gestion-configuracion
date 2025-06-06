@@ -1,11 +1,9 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-   <div >
-    <h1>
-    cristhian
-    </h1>
-    </div>
+    <main className="flex flex-col items-center justify-center min-h-screen">
+      <h1 className="text-3xl font-bold">Jair Gavilanez</h1>
+      <h1 className="text-3xl font-bold">Bryan Anchundia</h1>
+    </main>
   );
 }
+
